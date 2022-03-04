@@ -17,7 +17,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 0.5rem;
   padding: 4rem;
-  background-color: rgba(14, 14, 150, 0.836);
+  background-color: #2d25a0;
   color: #fff;
 }
 
@@ -98,7 +98,7 @@ button a:hover {
 
 /* -------- fifa event ---------- */
 .event-section{
-  background-color: rgba(14, 14, 150, 0.836);
+  background-color: #2d25a0;
   padding: 2rem 0 6rem 0;
   color: #f1f1f1;
   margin: 5rem 0;

@@ -12,22 +12,23 @@ body{
 }
 .banner{
     width: 100%;
-    height: 580px;
+    /* height: 580px; */
+    height: 80vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 2.5rem;
+    grid-column-gap: .5rem;
     padding: 4rem;
     background-color: rgba(14, 14, 150, 0.836);
     color: #fff;
 }
 
-.banner-detail h1{
+.banner-left h1{
     padding-top: 4rem;
     font-size: 4rem;
     line-height: 80px;
     font-weight: 600;
 }
-    .banner-detail button{
+.banner-left button{
     padding: 15px 24px 15px 24px;
     background: #E02C6D;
     font-size: 1rem;
@@ -37,20 +38,17 @@ body{
     border-radius: 5px;
     border: 0;
 }
-.banner-detail span{
-    display: none;
-}
 button:hover{
     transform: scale(1.2);
     transition: transform .5s ease-in;
     border: 1.5px solid #fff;
 }
-.banner-detail button:hover span{
+.banner-left button:hover span{
     display: inline-block;
     padding-left: .6rem;
 }
 
-.banner-img img{
+.banner-right img{
     width: 95%;
     padding-left: 2rem;
 }
@@ -213,14 +211,14 @@ footer span{
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 2rem;
     }
-    .banner-detail h1{
+    .banner-left h1{
         font-size: 2rem;
     }
-    .banner-detail button{
+    .banner-left button{
         font-size: .7rem;
         font-weight: bold;
     }
-    .banner-img img{
+    .banner-right img{
         width: 100%;
         height: auto;
     }
